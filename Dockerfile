@@ -5,7 +5,7 @@ FROM nginx:alpine
 COPY /etc/nginx/nginx.conf
 
 # Copy the website files to the Nginx web root directory
-COPY /home/abhi/Documents/all_files/resumesite /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html
 
 # Expose port 80 
 EXPOSE 80
