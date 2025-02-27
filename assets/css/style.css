@@ -241,8 +241,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/abhi.jpg") top center;
+  background: url("../img/abhii.jpg") top center; /* Updated background image */
   background-size: cover;
+  position: relative;
 }
 
 #hero:before {
